@@ -1,5 +1,5 @@
 import { LoggerService } from './logger.service';
-import { ProductsdataService } from './productsdata.service';
+import { ProductsdataService } from './products-data.service';
 import { Inject, Injectable } from '@angular/core';
 import { Product } from './productlist/product';
 
