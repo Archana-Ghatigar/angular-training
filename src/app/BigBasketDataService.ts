@@ -1,4 +1,4 @@
-import { ProductsdataService } from './productsdata.service';
+import { ProductsdataService } from './products-data.service';
 import { Product } from './productlist/product';
 import { LoggerService } from './logger.service';
 import { Injectable } from '@angular/core';
