@@ -23,8 +23,6 @@ export class BigBasketDataService extends ProductsdataService{
     this.logger.log('Data inititalized in BigBasketDataService');
 
   }
-  getProductList():Array<Product>{
-    return this.productList;
-  }
+ 
 
 }
