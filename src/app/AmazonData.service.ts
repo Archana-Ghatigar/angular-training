@@ -6,7 +6,6 @@ import { Product } from './product';
   providedIn:'root'
 })
 export class AmazonDataService {   //PLEASE ADD THE "EXTENDS PRODUCTSDATASERVICE" ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE
-  //private productList;
   constructor() {
     /*super();  //PLEASE UNCOMMENT THIS ENTIRE BLOCK ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE. ENSURE IT HAS THE SAME PRODUCTLIST CREATED - EXACT NAME.
     console.log('AmazonDataService invoked');
