@@ -1,14 +1,13 @@
-import { LoggerService } from './logger.service';
 import { ProductsdataService } from './products-data.service';
 import { Inject, Injectable } from '@angular/core';
-import { Product } from './productlist/product';
+import { Product } from './product';
 
 @Injectable({
   providedIn:'root'
 })
 export class AmazonDataService extends ProductsdataService{
   //private productList;
-  constructor(private logger:LoggerService) {
+  constructor() {
     super();
     console.log('AmazonDataService invoked');
     let p1 = new Product(1, "Angular CookBook", "Technical", 240, "assets/images/angular.jpg");
