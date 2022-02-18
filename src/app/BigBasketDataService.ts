@@ -1,14 +1,14 @@
-import { ProductsdataService } from './products-data.service';
+//import { ProductsdataService } from './products-data.service';
 import { Product } from './product';
 import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn:'root'
 })
-export class BigBasketDataService extends ProductsdataService{
+export class BigBasketDataService {
   
   constructor() {  
-    super();
+    /*super();
     let p1 = new Product(1, "MotoG4", "Mobiles", 24000, "assets/images/1.jpg");
     let p2 = new Product(2, "SonyDSC", "Camera", 64000, "assets/images/2.jpg");
     let p3 = new Product(3, "Lenovo110", "Laptops", 54000, "assets/images/3.jpg");
@@ -19,7 +19,7 @@ export class BigBasketDataService extends ProductsdataService{
     this.productList.push(p3);
     this.productList.push(p4);
     this.productList.push(p5);
-    this.logger.log('Data inititalized in BigBasketDataService');
+    */
 
   }
  
