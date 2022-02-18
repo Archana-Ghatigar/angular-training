@@ -1,14 +1,14 @@
-//import { ProductsdataService } from './products-data.service';
+//import { ProductsdataService } from './products-data.service';  //PLEASE UNCOMMENT THIS ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE. ENSURE EXACT NAME
 import { Inject, Injectable } from '@angular/core';
 import { Product } from './product';
 
 @Injectable({
   providedIn:'root'
 })
-export class AmazonDataService {
+export class AmazonDataService {   //PLEASE ADD THE "EXTENDS PRODUCTSDATASERVICE" ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE
   //private productList;
   constructor() {
-    /*super();
+    /*super();  //PLEASE UNCOMMENT THIS ENTIRE BLOCK ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE. ENSURE IT HAS THE SAME PRODUCTLIST CREATED - EXACT NAME.
     console.log('AmazonDataService invoked');
     let p1 = new Product(1, "Angular CookBook", "Technical", 240, "assets/images/angular.jpg");
     let p2 = new Product(2, "Ajax for Dummies", "Technical", 640, "assets/images/ajax.jpg");
