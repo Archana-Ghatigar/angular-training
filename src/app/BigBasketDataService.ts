@@ -1,6 +1,5 @@
 import { ProductsdataService } from './products-data.service';
-import { Product } from './productlist/product';
-import { LoggerService } from './logger.service';
+import { Product } from './product';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -8,7 +7,7 @@ import { Injectable } from '@angular/core';
 })
 export class BigBasketDataService extends ProductsdataService{
   
-  constructor(private logger:LoggerService) {  
+  constructor() {  
     super();
     let p1 = new Product(1, "MotoG4", "Mobiles", 24000, "assets/images/1.jpg");
     let p2 = new Product(2, "SonyDSC", "Camera", 64000, "assets/images/2.jpg");
