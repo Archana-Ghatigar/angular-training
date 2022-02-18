@@ -1,14 +1,14 @@
-//import { ProductsdataService } from './products-data.service';
+//import { ProductsdataService } from './products-data.service';  //PLEASE UNCOMMENT THIS ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE. ENSURE EXACT NAME
 import { Product } from './product';
 import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn:'root'
 })
-export class BigBasketDataService {
+export class BigBasketDataService {  //PLEASE ADD THE "EXTENDS PRODUCTSDATASERVICE" ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE
   
   constructor() {  
-    /*super();
+    /*super();   //PLEASE UNCOMMENT THIS ENTIRE BLOCK ONCE YOU HAVE CREATED THE PRODUCTSDATASERVICE. ENSURE IT HAS THE SAME PRODUCTLIST CREATED - EXACT NAME.
     let p1 = new Product(1, "MotoG4", "Mobiles", 24000, "assets/images/1.jpg");
     let p2 = new Product(2, "SonyDSC", "Camera", 64000, "assets/images/2.jpg");
     let p3 = new Product(3, "Lenovo110", "Laptops", 54000, "assets/images/3.jpg");
